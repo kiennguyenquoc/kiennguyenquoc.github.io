@@ -3,9 +3,9 @@
 # Site wide configuration
 ####################################
 #
-title: kiennq - Blogs
+title: kiennq - Home
 email: kiennq0509@gmail.com
-description: A simple and awesome blog theme powered by jekyll.
+description: Technical Blog.
 url: # the base hostname & protocol for your site
 
 
@@ -34,7 +34,7 @@ kramdown:
 #
 owner:
   name: Kien Nguyen-Quoc
-  avatar: leonids-logo.png
+  avatar: kiennq-logo.png
   job: "Ruby on Rails and Golang Developer"
   bio: "Technical blog about RoR & Golang ."
   email: kiennq0509@gmail.com
