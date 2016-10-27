@@ -109,6 +109,7 @@ end
 - Dùng `+` để cắt khi chuỗi quá dài. 
  
 **Ví dụ:**
+
 ```
 long_str = 'a very long long long long long long' +
            'long long long long string'
