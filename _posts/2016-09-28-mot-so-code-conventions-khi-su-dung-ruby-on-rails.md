@@ -71,7 +71,9 @@ def compute_thing(thing)
       end
   end
 end
- 
+```
+
+``` 
 # Good
 def compute_thing(thing)
   return unless thing[:foo]
@@ -105,10 +107,10 @@ end
  
 **Ví dụ:**
 ```
-long_str = 'a very long long long long long long' + 
+long_str = 'a very long long long long long long' + \n
            'long long long long string'
 ```
------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------\n
 [Tài liệu tham khảo](https://github.com/scrum2b/ruby-style-guide/blob/master/README-viVN.md)
 
 **Nguyễn Quốc Kiện.**
