@@ -8,6 +8,7 @@ comments: true
 image:
   feature: simplify.png
 ---
+
 ### 1. Các qui tắt chung.
 - Dùng 2 space.
 - Dùng space trước và sau các dấu `+,-,x,/, {, }, =`.
