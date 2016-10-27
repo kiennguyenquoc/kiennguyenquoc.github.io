@@ -31,7 +31,9 @@ image:
 ```
 do_something if some_condition
 ```
-*thay cho*
+
+**thay cho**
+
 ```
 if some_condition  
   do_something  
@@ -59,7 +61,7 @@ end
 - Dùng `→` thay cho từ khóa `lambda`
 - Dùng các câu `inline if` thay cho các câu `nested if`. 
  
-Ví dụ:
+**Ví dụ:**
 ```
 # Bad
 def compute_thing(thing)
@@ -99,19 +101,21 @@ end
 ### 8. Collection.
 - Dùng `%w `để khai báo mảng các chuỗi.
 - Dùng `%i` để khai báo mảng các symbol.
-- Nên dùng `symbol` làm key trong `hash`. Ví dụ: `{:one ⇒ 1, :two ⇒ 2}`.
+- Nên dùng `symbol` làm key trong `hash`. *Ví dụ:* `{:one ⇒ 1, :two ⇒ 2}.`
 
 ### 9. String.
-- Dùng `#{}` thay cho nối chuỗi. Ví dụ: `email_with_name = "#{user.name} <#{user.email}>`.
+- Dùng `#{}` thay cho nối chuỗi. *Ví dụ:* `email_with_name = "#{user.name} <#{user.email}>`.
 - Dùng `%Q` để khai báo chuỗi có `', ”, #{}`.
 - Dùng `+` để cắt khi chuỗi quá dài. 
  
 **Ví dụ:**
 ```
-long_str = 'a very long long long long long long' + \n
+long_str = 'a very long long long long long long' +
            'long long long long string'
 ```
------------------------------------------------------------------------------------------\n
+
+-----------------------------------------------------------------------------------------
+
 [Tài liệu tham khảo](https://github.com/scrum2b/ruby-style-guide/blob/master/README-viVN.md)
 
 **Nguyễn Quốc Kiện.**
