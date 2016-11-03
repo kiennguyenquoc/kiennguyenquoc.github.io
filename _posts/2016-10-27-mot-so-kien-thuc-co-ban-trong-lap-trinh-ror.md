@@ -104,5 +104,7 @@ Foo.new.bar # => NoMethodError: undefined method ‘bar’ for #<Foo:0x1e820>
 - In `a = a || b`, `a` is set to something by the statement on every run, whereas with `a || a = b`, `a` is only set if `a` is logically `false` (i.e. if it's `nil` or `false`) because `||` is 'short circuiting'. That is, if the left hand side of the `||` comparison is `true`, there's no need to check the right hand side.
 
 ## IV. Reference
-- http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/
-- http://www.rubyinside.com/what-rubys-double-pipe-or-equals-really-does-5488.html
+- [http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/](http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/)
+- [http://www.rubyinside.com/what-rubys-double-pipe-or-equals-really-does-5488.html](http://www.rubyinside.com/what-rubys-double-pipe-or-equals-really-does-5488.html)
+
+**Nguyễn Quốc Kiện.**
