@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Một số Code conventions khi sử dụng Ruby on Rails.
-tags: code-conventions
+tags: coding-conventions
 excerpt: "Một tài liệu dùng để tham khảo cho việc viết code Ruby on rails trở nên tốt hơn."
-categories: [ruby]
+categories: [Ruby on Rails]
 comments: true
 image:
   feature: simplify.png
